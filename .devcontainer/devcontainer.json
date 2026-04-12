@@ -1,0 +1,6 @@
+{
+  "name": "cotizador-ai-core",
+  "dockerComposeFile": "../docker/compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace"
+}
