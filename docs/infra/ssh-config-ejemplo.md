@@ -13,3 +13,11 @@ Host cotizador-server
     User joseph
     ServerAliveInterval 60
     ServerAliveCountMax 5
+
+## Método GitHub para el servidor
+
+El servidor Ubuntu utiliza autenticación Git por SSH key.
+
+### Validación
+```bash
+ssh -T git@github.com
