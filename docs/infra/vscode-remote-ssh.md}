@@ -1,0 +1,25 @@
+# Conexión de VS Code al servidor
+
+## Requisito
+Instalar la extensión:
+
+- Remote - SSH (Microsoft)
+
+## Flujo de conexión
+
+1. Abrir VS Code
+2. Presionar `F1`
+3. Ejecutar:
+   `Remote-SSH: Connect to Host`
+4. Seleccionar:
+   `cotizador-server`
+5. Abrir carpeta:
+   `/srv/projects/cotizador-ai-core`
+
+## Resultado esperado
+VS Code debe mostrar en la esquina inferior izquierda:
+
+`SSH: cotizador-server`
+
+## Beneficio
+Permite trabajar sobre el proyecto remoto como si fuera local, manteniendo un único entorno de desarrollo centralizado.e
